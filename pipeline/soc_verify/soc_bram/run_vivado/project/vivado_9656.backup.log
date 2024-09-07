@@ -1,0 +1,349 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Dec  1 16:49:29 2023
+# Process ID: 9656
+# Current directory: D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10644 D:\networkTaining\project\exp7\mycpu_env\soc_verify\soc_bram\run_vivado\project\loongson.xpr
+# Log file: D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/vivado.log
+# Journal file: D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/networkTaining/Vivado/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  1 16:50:02 2023...
+king validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/networkTaining/Vivado/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/exe_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/id_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/if_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/mem_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/tools.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_2_4
+INFO: [VRFC 10-311] analyzing module decoder_4_16
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/myCPU/wb_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xelab -wto 8fd83374ff0a465fba08571112332080 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/networkTaining/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 8fd83374ff0a465fba08571112332080 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.if_stage
+Compiling module xil_defaultlib.decoder_6_64
+Compiling module xil_defaultlib.decoder_4_16
+Compiling module xil_defaultlib.decoder_2_4
+Compiling module xil_defaultlib.decoder_5_32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_stage
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.exe_stage
+Compiling module xil_defaultlib.mem_stage
+Compiling module xil_defaultlib.wb_stage
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_lite_top(SIMULATION=1'b1)
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 843.895 ; gain = 73.316
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 843.895 ; gain = 73.316
+run all
+==============================================================
+Test begin!
+        [  22000 ns] Test is running, debug_wb_pc = 0x1c070234
+----[  27915 ns] Number 8'd01 Functional Test Point PASS!!!
+        [  32000 ns] Test is running, debug_wb_pc = 0x1c07a3dc
+        [  42000 ns] Test is running, debug_wb_pc = 0x1c07b37c
+        [  52000 ns] Test is running, debug_wb_pc = 0x1c07c31c
+        [  62000 ns] Test is running, debug_wb_pc = 0x1c07d2bc
+        [  72000 ns] Test is running, debug_wb_pc = 0x1c07e25c
+        [  82000 ns] Test is running, debug_wb_pc = 0x1c07f1fc
+        [  92000 ns] Test is running, debug_wb_pc = 0x1c08019c
+        [ 102000 ns] Test is running, debug_wb_pc = 0x1c08113c
+        [ 112000 ns] Test is running, debug_wb_pc = 0x1c0820dc
+----[ 113065 ns] Number 8'd02 Functional Test Point PASS!!!
+        [ 122000 ns] Test is running, debug_wb_pc = 0x1c082f60
+        [ 132000 ns] Test is running, debug_wb_pc = 0x1c083f00
+        [ 142000 ns] Test is running, debug_wb_pc = 0x1c084ea0
+        [ 152000 ns] Test is running, debug_wb_pc = 0x1c085e40
+        [ 162000 ns] Test is running, debug_wb_pc = 0x1c086de0
+        [ 172000 ns] Test is running, debug_wb_pc = 0x1c087d80
+----[ 180155 ns] Number 8'd03 Functional Test Point PASS!!!
+        [ 182000 ns] Test is running, debug_wb_pc = 0x1c088c04
+        [ 192000 ns] Test is running, debug_wb_pc = 0x1c089ba4
+        [ 202000 ns] Test is running, debug_wb_pc = 0x1c08ab44
+        [ 212000 ns] Test is running, debug_wb_pc = 0x1c08bae4
+        [ 222000 ns] Test is running, debug_wb_pc = 0x1c08ca84
+        [ 232000 ns] Test is running, debug_wb_pc = 0x1c08da24
+        [ 242000 ns] Test is running, debug_wb_pc = 0x1c08e9c4
+        [ 252000 ns] Test is running, debug_wb_pc = 0x1c08f964
+        [ 262000 ns] Test is running, debug_wb_pc = 0x1c090904
+----[ 265305 ns] Number 8'd04 Functional Test Point PASS!!!
+        [ 272000 ns] Test is running, debug_wb_pc = 0x1c091788
+        [ 282000 ns] Test is running, debug_wb_pc = 0x1c092728
+        [ 292000 ns] Test is running, debug_wb_pc = 0x1c0936c8
+        [ 302000 ns] Test is running, debug_wb_pc = 0x1c094668
+        [ 312000 ns] Test is running, debug_wb_pc = 0x1c095608
+        [ 322000 ns] Test is running, debug_wb_pc = 0x1c0965a8
+        [ 332000 ns] Test is running, debug_wb_pc = 0x1c097548
+        [ 342000 ns] Test is running, debug_wb_pc = 0x1c0984e8
+----[ 350455 ns] Number 8'd05 Functional Test Point PASS!!!
+        [ 352000 ns] Test is running, debug_wb_pc = 0x1c09936c
+        [ 362000 ns] Test is running, debug_wb_pc = 0x1c09a30c
+        [ 372000 ns] Test is running, debug_wb_pc = 0x1c09b2ac
+        [ 382000 ns] Test is running, debug_wb_pc = 0x1c09c24c
+        [ 392000 ns] Test is running, debug_wb_pc = 0x1c09d1ec
+        [ 402000 ns] Test is running, debug_wb_pc = 0x1c09e18c
+        [ 412000 ns] Test is running, debug_wb_pc = 0x1c09f12c
+        [ 422000 ns] Test is running, debug_wb_pc = 0x1c0a00cc
+        [ 432000 ns] Test is running, debug_wb_pc = 0x1c0a106c
+----[ 435605 ns] Number 8'd06 Functional Test Point PASS!!!
+        [ 442000 ns] Test is running, debug_wb_pc = 0x1c0a1ef0
+        [ 452000 ns] Test is running, debug_wb_pc = 0x1c0a2e90
+        [ 462000 ns] Test is running, debug_wb_pc = 0x1c0a3e30
+        [ 472000 ns] Test is running, debug_wb_pc = 0x1c0a4dd0
+        [ 482000 ns] Test is running, debug_wb_pc = 0x1c0a5d70
+        [ 492000 ns] Test is running, debug_wb_pc = 0x1c0a6d10
+        [ 502000 ns] Test is running, debug_wb_pc = 0x1c0a7cb0
+        [ 512000 ns] Test is running, debug_wb_pc = 0x1c0a8c50
+----[ 520755 ns] Number 8'd07 Functional Test Point PASS!!!
+        [ 522000 ns] Test is running, debug_wb_pc = 0x1c0a9ad4
+        [ 532000 ns] Test is running, debug_wb_pc = 0x1c0aaa74
+        [ 542000 ns] Test is running, debug_wb_pc = 0x1c0aba14
+        [ 552000 ns] Test is running, debug_wb_pc = 0x1c0ac9b4
+        [ 562000 ns] Test is running, debug_wb_pc = 0x1c0ad954
+        [ 572000 ns] Test is running, debug_wb_pc = 0x1c0ae8f4
+        [ 582000 ns] Test is running, debug_wb_pc = 0x1c0af894
+        [ 592000 ns] Test is running, debug_wb_pc = 0x1c0b0834
+        [ 602000 ns] Test is running, debug_wb_pc = 0x1c0b17d4
+----[ 605905 ns] Number 8'd08 Functional Test Point PASS!!!
+        [ 612000 ns] Test is running, debug_wb_pc = 0x1c0b2658
+        [ 622000 ns] Test is running, debug_wb_pc = 0x1c0b35f8
+        [ 632000 ns] Test is running, debug_wb_pc = 0x1c0b4598
+        [ 642000 ns] Test is running, debug_wb_pc = 0x1c0b5538
+        [ 652000 ns] Test is running, debug_wb_pc = 0x1c0b64d8
+        [ 662000 ns] Test is running, debug_wb_pc = 0x1c0b7478
+        [ 672000 ns] Test is running, debug_wb_pc = 0x1c0b8418
+        [ 682000 ns] Test is running, debug_wb_pc = 0x1c0b93b8
+----[ 691055 ns] Number 8'd09 Functional Test Point PASS!!!
+        [ 692000 ns] Test is running, debug_wb_pc = 0x1c00f924
+        [ 702000 ns] Test is running, debug_wb_pc = 0x1c0108c4
+        [ 712000 ns] Test is running, debug_wb_pc = 0x1c011864
+        [ 722000 ns] Test is running, debug_wb_pc = 0x1c012804
+        [ 732000 ns] Test is running, debug_wb_pc = 0x1c0137a4
+        [ 742000 ns] Test is running, debug_wb_pc = 0x1c014744
+        [ 752000 ns] Test is running, debug_wb_pc = 0x1c0156e4
+        [ 762000 ns] Test is running, debug_wb_pc = 0x1c016684
+        [ 772000 ns] Test is running, debug_wb_pc = 0x1c017624
+----[ 776205 ns] Number 8'd10 Functional Test Point PASS!!!
+        [ 782000 ns] Test is running, debug_wb_pc = 0x1c0184a8
+        [ 792000 ns] Test is running, debug_wb_pc = 0x1c019448
+        [ 802000 ns] Test is running, debug_wb_pc = 0x1c01a3e8
+        [ 812000 ns] Test is running, debug_wb_pc = 0x1c01b388
+        [ 822000 ns] Test is running, debug_wb_pc = 0x1c01c328
+        [ 832000 ns] Test is running, debug_wb_pc = 0x1c01d2c8
+        [ 842000 ns] Test is running, debug_wb_pc = 0x1c01e268
+----[ 843295 ns] Number 8'd11 Functional Test Point PASS!!!
+        [ 852000 ns] Test is running, debug_wb_pc = 0x1c01f0ec
+        [ 862000 ns] Test is running, debug_wb_pc = 0x1c02008c
+        [ 872000 ns] Test is running, debug_wb_pc = 0x1c02102c
+        [ 882000 ns] Test is running, debug_wb_pc = 0x1c021fcc
+        [ 892000 ns] Test is running, debug_wb_pc = 0x1c022f6c
+        [ 902000 ns] Test is running, debug_wb_pc = 0x1c023f0c
+----[ 910385 ns] Number 8'd12 Functional Test Point PASS!!!
+        [ 912000 ns] Test is running, debug_wb_pc = 0x1c024d90
+        [ 922000 ns] Test is running, debug_wb_pc = 0x1c025d30
+        [ 932000 ns] Test is running, debug_wb_pc = 0x1c026cd0
+        [ 942000 ns] Test is running, debug_wb_pc = 0x1c027c70
+        [ 952000 ns] Test is running, debug_wb_pc = 0x1c028c10
+        [ 962000 ns] Test is running, debug_wb_pc = 0x1c029bb0
+        [ 972000 ns] Test is running, debug_wb_pc = 0x1c02ab50
+----[ 977475 ns] Number 8'd13 Functional Test Point PASS!!!
+        [ 982000 ns] Test is running, debug_wb_pc = 0x1c02b9d4
+        [ 992000 ns] Test is running, debug_wb_pc = 0x1c02c974
+----[1001385 ns] Number 8'd14 Functional Test Point PASS!!!
+        [1002000 ns] Test is running, debug_wb_pc = 0x1c00f3f4
+        [1012000 ns] Test is running, debug_wb_pc = 0x1c02e798
+        [1022000 ns] Test is running, debug_wb_pc = 0x1c02f738
+----[1027095 ns] Number 8'd15 Functional Test Point PASS!!!
+        [1032000 ns] Test is running, debug_wb_pc = 0x1c03073c
+        [1042000 ns] Test is running, debug_wb_pc = 0x1c031a6c
+        [1052000 ns] Test is running, debug_wb_pc = 0x1c032d88
+        [1062000 ns] Test is running, debug_wb_pc = 0x1c0340b8
+        [1072000 ns] Test is running, debug_wb_pc = 0x1c0353e8
+        [1082000 ns] Test is running, debug_wb_pc = 0x1c036694
+        [1092000 ns] Test is running, debug_wb_pc = 0x1c0375f8
+        [1102000 ns] Test is running, debug_wb_pc = 0x1c03855c
+        [1112000 ns] Test is running, debug_wb_pc = 0x1c0394c0
+        [1122000 ns] Test is running, debug_wb_pc = 0x1c03a440
+        [1132000 ns] Test is running, debug_wb_pc = 0x1c03b3a0
+        [1142000 ns] Test is running, debug_wb_pc = 0x1c03c2e8
+        [1152000 ns] Test is running, debug_wb_pc = 0x1c03d44c
+        [1162000 ns] Test is running, debug_wb_pc = 0x1c03e768
+        [1172000 ns] Test is running, debug_wb_pc = 0x1c03fa98
+        [1182000 ns] Test is running, debug_wb_pc = 0x1c040dc8
+        [1192000 ns] Test is running, debug_wb_pc = 0x1c0420dc
+----[1200625 ns] Number 8'd16 Functional Test Point PASS!!!
+        [1202000 ns] Test is running, debug_wb_pc = 0x1c04322c
+        [1212000 ns] Test is running, debug_wb_pc = 0x1c044190
+        [1222000 ns] Test is running, debug_wb_pc = 0x1c045110
+        [1232000 ns] Test is running, debug_wb_pc = 0x1c046074
+        [1242000 ns] Test is running, debug_wb_pc = 0x1c046f70
+        [1252000 ns] Test is running, debug_wb_pc = 0x1c047f1c
+        [1262000 ns] Test is running, debug_wb_pc = 0x1c048e80
+        [1272000 ns] Test is running, debug_wb_pc = 0x1c049fb0
+        [1282000 ns] Test is running, debug_wb_pc = 0x1c04b2cc
+        [1292000 ns] Test is running, debug_wb_pc = 0x1c04c5fc
+        [1302000 ns] Test is running, debug_wb_pc = 0x1c04d92c
+        [1312000 ns] Test is running, debug_wb_pc = 0x1c04ec40
+        [1322000 ns] Test is running, debug_wb_pc = 0x1c04fef4
+        [1332000 ns] Test is running, debug_wb_pc = 0x1c050df0
+        [1342000 ns] Test is running, debug_wb_pc = 0x1c051d9c
+        [1352000 ns] Test is running, debug_wb_pc = 0x1c052d00
+        [1362000 ns] Test is running, debug_wb_pc = 0x1c053c64
+        [1372000 ns] Test is running, debug_wb_pc = 0x1c054bc8
+        [1382000 ns] Test is running, debug_wb_pc = 0x1c055b48
+----[1387025 ns] Number 8'd17 Functional Test Point PASS!!!
+        [1392000 ns] Test is running, debug_wb_pc = 0x1c0569b0
+        [1402000 ns] Test is running, debug_wb_pc = 0x1c057914
+        [1412000 ns] Test is running, debug_wb_pc = 0x1c058878
+        [1422000 ns] Test is running, debug_wb_pc = 0x1c059810
+        [1432000 ns] Test is running, debug_wb_pc = 0x1c05a744
+        [1442000 ns] Test is running, debug_wb_pc = 0x1c05b6a8
+        [1452000 ns] Test is running, debug_wb_pc = 0x1c05c5f0
+        [1462000 ns] Test is running, debug_wb_pc = 0x1c05d574
+        [1472000 ns] Test is running, debug_wb_pc = 0x1c05e4d8
+        [1482000 ns] Test is running, debug_wb_pc = 0x1c05f43c
+        [1492000 ns] Test is running, debug_wb_pc = 0x1c0603d4
+        [1502000 ns] Test is running, debug_wb_pc = 0x1c061308
+        [1512000 ns] Test is running, debug_wb_pc = 0x1c06226c
+        [1522000 ns] Test is running, debug_wb_pc = 0x1c0631b4
+----[1523895 ns] Number 8'd18 Functional Test Point PASS!!!
+        [1532000 ns] Test is running, debug_wb_pc = 0x1c063fe4
+        [1542000 ns] Test is running, debug_wb_pc = 0x1c064efc
+        [1552000 ns] Test is running, debug_wb_pc = 0x1c065e14
+        [1562000 ns] Test is running, debug_wb_pc = 0x1c066d28
+        [1572000 ns] Test is running, debug_wb_pc = 0x1c067c3c
+        [1582000 ns] Test is running, debug_wb_pc = 0x1c068b54
+        [1592000 ns] Test is running, debug_wb_pc = 0x1c069a6c
+        [1602000 ns] Test is running, debug_wb_pc = 0x1c06a980
+        [1612000 ns] Test is running, debug_wb_pc = 0x1c06b884
+        [1622000 ns] Test is running, debug_wb_pc = 0x1c06c7ac
+        [1632000 ns] Test is running, debug_wb_pc = 0x1c06d6c4
+----[1640765 ns] Number 8'd19 Functional Test Point PASS!!!
+        [1642000 ns] Test is running, debug_wb_pc = 0x1c070c44
+        [1652000 ns] Test is running, debug_wb_pc = 0x1c071b90
+        [1662000 ns] Test is running, debug_wb_pc = 0x1c072adc
+        [1672000 ns] Test is running, debug_wb_pc = 0x1c073a20
+        [1682000 ns] Test is running, debug_wb_pc = 0x1c074994
+        [1692000 ns] Test is running, debug_wb_pc = 0x1c0758c4
+        [1702000 ns] Test is running, debug_wb_pc = 0x1c076810
+        [1712000 ns] Test is running, debug_wb_pc = 0x1c07775c
+        [1722000 ns] Test is running, debug_wb_pc = 0x1c0786a8
+        [1732000 ns] Test is running, debug_wb_pc = 0x1c0795ec
+----[1737635 ns] Number 8'd20 Functional Test Point PASS!!!
+==============================================================
+Test end!
+----PASS!!!
+$finish called at time : 1738785 ns : File "D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v" Line 270
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:48 . Memory (MB): peak = 854.805 ; gain = 10.910
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  1 16:51:10 2023...

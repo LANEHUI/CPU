@@ -1,0 +1,2 @@
+pipeline/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/dump.vcd filter=lfs diff=lfs merge=lfs -text
+pipeline/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/tb_top_behav.wdb filter=lfs diff=lfs merge=lfs -text

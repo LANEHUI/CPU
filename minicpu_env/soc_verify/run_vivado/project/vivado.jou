@@ -1,0 +1,171 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Apr 17 19:44:08 2024
+# Process ID: 17520
+# Current directory: C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22828 C:\Users\ray\Desktop\minicpu_env\soc_verify\run_vivado\project\loongson.xpr
+# Log file: C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/vivado.log
+# Journal file: C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+reset_run synth_1
+reset_run inst_ram_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+close_design
+generate_target Simulation [get_files C:/Users/ray/Desktop/minicpu_env/soc_verify/rtl/xilinx_ip/inst_ram/inst_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/ray/Desktop/minicpu_env/soc_verify/rtl/xilinx_ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/ray/Desktop/minicpu_env/soc_verify/rtl/xilinx_ip/inst_ram/inst_ram.xci] -directory C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.ip_user_files -ipstatic_source_dir C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.cache/compile_simlib/modelsim} {questa=C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.cache/compile_simlib/questa} {riviera=C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.cache/compile_simlib/riviera} {activehdl=C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+run 10 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+run 10 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/soc_mini/u_confreg/show_num_data}} 
+run 10 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+run 10 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+run 10 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+run 10 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/tb_top_behav.wcfg
+source tb_top.tcl
+run 10 us
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+close_sim
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/ray/Desktop/minicpu_env/soc_verify/run_vivado/project/loongson.runs/impl_1/soc_mini_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]

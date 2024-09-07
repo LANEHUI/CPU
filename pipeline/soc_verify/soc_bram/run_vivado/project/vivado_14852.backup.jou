@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Dec  1 16:52:48 2023
+# Process ID: 14852
+# Current directory: D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1196 D:\networkTaining\project\exp7\mycpu_env\soc_verify\soc_bram\run_vivado\project\loongson.xpr
+# Log file: D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/vivado.log
+# Journal file: D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project D:/networkTaining/project/exp7/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.xprupdate_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+run all
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+close_sim

@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 30 08:21:29 2023
+# Process ID: 14260
+# Current directory: D:/networkTaining/project/mycpu_env/soc_verify/soc_dram/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8748 D:\networkTaining\project\mycpu_env\soc_verify\soc_dram\run_vivado\project\loongson.xpr
+# Log file: D:/networkTaining/project/mycpu_env/soc_verify/soc_dram/run_vivado/project/vivado.log
+# Journal file: D:/networkTaining/project/mycpu_env/soc_verify/soc_dram/run_vivado/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/networkTaining/project/mycpu_env/soc_verify/soc_dram/run_vivado/project/loongson.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/networkTaining/project/mycpu_env/soc_verify/soc_dram/run_vivado/project/loongson.runs/impl_1/soc_lite_top.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {D:/networkTaining/project/mycpu_env/soc_verify/soc_dram/run_vivado/project/loongson.runs/impl_1/soc_lite_top.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw_manager
+launch_simulation
+source tb_top.tcl
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/tb_top/soc_lite/cpu/alu_src1}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_top/soc_lite/cpu/alu_src2}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/tb_top/soc_lite/cpu/alu_result}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/tb_top/soc_lite/cpu/rf_we}} 
+relaunch_sim
+run all
+relaunch_sim
+run all

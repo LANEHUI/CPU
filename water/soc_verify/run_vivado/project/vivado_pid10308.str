@@ -1,0 +1,126 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 10308
+License: Customer
+
+Current time: 	Tue Apr 16 20:22:46 CST 2024
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1600
+Screen resolution (DPI): 200
+Available screens: 1
+Available disk space: 95 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=24
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/networkTaining/Vivado/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/networkTaining/Vivado/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	26396
+User home directory: C:/Users/26396
+User working directory: D:/networkTaining/minicpu_env/soc_verify/run_vivado/project
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/networkTaining/Vivado/Vivado
+HDI_APPROOT: D:/networkTaining/Vivado/Vivado/2019.2
+RDI_DATADIR: D:/networkTaining/Vivado/Vivado/2019.2/data
+RDI_BINDIR: D:/networkTaining/Vivado/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/26396/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/26396/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/26396/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/networkTaining/Vivado/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/networkTaining/minicpu_env/soc_verify/run_vivado/project/vivado.log
+Vivado journal file location: 	D:/networkTaining/minicpu_env/soc_verify/run_vivado/project/vivado.jou
+Engine tmp dir: 	D:/networkTaining/minicpu_env/soc_verify/run_vivado/project/.Xil/Vivado-10308-LAPTOP-OMKLKK1U
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/networkTaining/Vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/networkTaining/Vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/networkTaining/Vivado/Vivado/2019.2
+XILINX_VIVADO: D:/networkTaining/Vivado/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/networkTaining/Vivado/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 691 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\networkTaining\minicpu_env\soc_verify\run_vivado\project\loongson.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: open_project D:/networkTaining/minicpu_env/soc_verify/run_vivado/project/loongson.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+85704kb) [00:00:10]
+// [Engine Memory]: 661 MB (+541514kb) [00:00:10]
+// [GUI Memory]: 110 MB (+22827kb) [00:00:10]
+// [GUI Memory]: 122 MB (+6277kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  3089 ms.
+// Tcl Message: open_project D:/networkTaining/minicpu_env/soc_verify/run_vivado/project/loongson.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/networkTaining/Vivado/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 69 MB. Current time: 4/16/24, 8:22:47 PM CST
+// Project name: loongson; location: D:/networkTaining/minicpu_env/soc_verify/run_vivado/project; part: xc7a200tfbg676-1
+// [Engine Memory]: 703 MB (+9405kb) [00:00:13]
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_mini_top (soc_mini_top.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_mini_top (soc_mini_top.v), cpu : minicpu_top (minicpu_top.v)]", 2, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Launch External Editor: 'D:/Microsoft VS Code/Code.exe "D:/networkTaining/minicpu_env/soc_verify/rtl/soc_mini_top.v" -64'
+// Elapsed time: 22 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_mini_top (soc_mini_top.v)]", 1); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, soc_mini_top.xdc]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, soc_mini_top.xdc]", 5, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Launch External Editor: 'D:/Microsoft VS Code/Code.exe "D:/networkTaining/minicpu_env/soc_verify/run_vivado/constraints/soc_mini_top.xdc" -0'
+// Elapsed time: 88 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, soc_mini_top.xdc]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, soc_mini_top.xdc]", 5, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Launch External Editor: 'D:/Microsoft VS Code/Code.exe "D:/networkTaining/minicpu_env/soc_verify/run_vivado/constraints/soc_mini_top.xdc" -0'

@@ -1,0 +1,26 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_C/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_C/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_0_0/RAMS64E_A/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_0_0/RAMS64E_B/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_A/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_0_0/RAMS64E_A/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_D/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_0_0/RAMS64E_B/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_D/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_B/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_A/ADR2|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_B/ADR2|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_B/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |    inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_14848_15103_29_29/RAMS64E_A/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |        inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_26_26/RAMS64E_A/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |      inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_26_26/RAMS64E_A/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |    inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_14848_15103_29_29/RAMS64E_B/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |    inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_15872_16127_29_29/RAMS64E_A/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |      inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_26_26/RAMS64E_A/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |      inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_26_26/RAMS64E_B/ADR1|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |    inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_15872_16127_29_29/RAMS64E_B/ADR0|
+|          cpu_clk_clk_pll |          cpu_clk_clk_pll |      inst_ram/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_8960_9215_26_26/RAMS64E_B/ADR0|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,13 @@
+memory_initialization_radix = 16;
+memory_initialization_vector =
+02800017
+02800418
+0280fc0c
+0280000d
+28900004
+0010348e
+2990040e
+001062f7
+5ffffeec
+5fffdf00
+5fffdf00
